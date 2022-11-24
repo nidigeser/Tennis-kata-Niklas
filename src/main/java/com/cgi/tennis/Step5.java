@@ -1,5 +1,5 @@
 /***********************************************************************
- *  4. Don´t abbreviate: AdantageOrWinScore --> AdvantageScore, WinScore
+ *  5. Don´t abbreviate: AdantageOrWinScore --> AdvantageScore, WinScore
  **********************************************************************/
 
 package com.cgi.tennis;
