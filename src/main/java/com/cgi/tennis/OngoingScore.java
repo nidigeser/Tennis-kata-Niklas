@@ -2,12 +2,12 @@ package com.cgi.tennis;
 
 public class OngoingScore extends Score {
 
-    public OngoingScore(int pointsPlayer1, int pointsPlayer2) {
-        super(pointsPlayer1, pointsPlayer2);
+    public OngoingScore(Player player1, Player player2) {
+        super(player1, player2);
     }
 
     String printScore() {
         String[] points = new String[]{"Love", "Fifteen", "Thirty", "Forty"};
-        return (pointsPlayer1 == pointsPlayer2) ? points[pointsPlayer1] + "-All" : points[pointsPlayer1] + "-" + points[pointsPlayer2];
+        return (player1.getPoints() == player2.getPoints()) ? points[player1.getPoints()] + "-All" : points[player1.getPoints()] + "-" + points[player2.getPoints()];
     }
 }
