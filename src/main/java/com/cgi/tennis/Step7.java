@@ -1,3 +1,7 @@
+/*****************************
+ *  7. First class collection
+ ****************************/
+
 package com.cgi.tennis;
 
 public class Step7 implements TennisGame{
